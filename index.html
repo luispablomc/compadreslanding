@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Title -->
+    <title>Pressure Washing & Cleaning Services in San Diego | Compadres Cleaning</title>
+
+    <!-- Meta Description (SEO local) -->
+    <meta name="description" content="Professional pressure washing and cleaning services in San Diego. Commercial & residential cleaning, graffiti removal, oil stain removal, house washing, pool deck cleaning. Licensed & insured. Get a free quote." />
+
+    <!-- SEO Keywords -->
+    <meta name="keywords" content="pressure washing San Diego, power washing San Diego, commercial cleaning San Diego, graffiti removal San Diego, driveway cleaning San Diego, house washing San Diego">
+
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="navbar">
+    <img class="logo" src="assets/images/logo.png" alt="Compadres Cleaning Logo" />
+
+    <nav class="nav-links">
+        <a href="#about" data-key="menu_about"></a>
+        <a href="#services" data-key="menu_services"></a>
+        <a href="#contact" data-key="menu_contact"></a>
+    </nav>
+
+    <!-- Selector idioma escritorio -->
+    <div class="language-wrapper desktop-language">
+        <select class="languageSelector">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+
+    <button id="menuToggle" class="menu-toggle">
+        <span></span><span></span><span></span>
+    </button>
+</header>
+
+<!-- Menú móvil overlay -->
+<div id="mobileMenu" class="overlay mobile-menu">
+    <div class="overlay-content">
+        <span id="closeMenu" class="close-menu">&times;</span>
+
+        <nav>
+            <a href="#about" data-key="menu_about"></a>
+            <a href="#services" data-key="menu_services"></a>
+            <a href="#contact" data-key="menu_contact"></a>
+        </nav>
+
+        <!-- Selector idioma móvil -->
+        <div class="language-wrapper mobile-language">
+            <select class="languageSelector">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<section class="hero">
+    <h1 data-key="hero_title" class="hero-title"></h1>
+    <p data-key="hero_subtitle" class="hero-subtitle"></p>
+    <button class="cta" data-key="cta_quote"></button>
+</section>
+
+<section id="about" class="section">
+    <h2 data-key="about_title"></h2>
+    <p data-key="about_text"></p>
+</section>
+
+<section id="services" class="section services-grid">
+    <h2 data-key="services_title"></h2>
+
+    <div class="card">
+        <h3 data-key="service_pressure"></h3>
+        <p data-key="service_pressure_desc"></p>
+    </div>
+
+    <div class="card">
+        <h3 data-key="service_driveway"></h3>
+        <p data-key="service_driveway_desc"></p>
+    </div>
+
+    <div class="card">
+        <h3 data-key="service_graffiti"></h3>
+        <p data-key="service_graffiti_desc"></p>
+    </div>
+
+    <div class="card">
+        <h3 data-key="service_oilstain"></h3>
+        <p data-key="service_oilstain_desc"></p>
+    </div>
+
+    <div class="card">
+        <h3 data-key="service_house"></h3>
+        <p data-key="service_house_desc"></p>
+    </div>
+
+    <div class="card">
+        <h3 data-key="service_pool"></h3>
+        <p data-key="service_pool_desc"></p>
+    </div>
+</section>
+
+<section class="section locations">
+    <h2>Service Areas in San Diego</h2>
+    <p>
+        We proudly serve San Diego County including Chula Vista, La Jolla, Mission Valley,
+        Pacific Beach, National City, and surrounding areas.
+    </p>
+</section>
+
+<section id="contact" class="section contact">
+    <h2 data-key="contact_title"></h2>
+
+    <form>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message"></textarea>
+        <button class="cta" data-key="cta_send"></button>
+    </form>
+</section>
+
+<footer>
+    <p data-key="footer_text"></p>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Compadres Cleaning & Removal Services",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "San Diego",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "areaServed": "San Diego County",
+  "url": "https://compadrescleaning.com",
+  "telephone": "YOUR_PHONE_NUMBER",
+  "image": "YOUR_LOGO_OR_HERO_IMAGE",
+  "priceRange": "$$"
+}
+</script>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
