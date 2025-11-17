@@ -256,23 +256,29 @@
                     </div>
                 </div>
 
-                <!-- Columna 2: Formulario -->
                 <div class="contact-form">
-                    <form action="https://formspree.io/f/xkgkepav" method="POST">
+                    <form name="contact" method="POST" netlify data-netlify="true">
                         <input type="text" name="name" placeholder="Your Full Name" required />
                         <input type="email" name="email" placeholder="Your Email Address" required />
                         <input type="tel" name="phone" placeholder="Your Phone Number" required />
                         <input type="text" name="business_address" placeholder="Business Address (if applicable)" />
-
                         <div class="privacy-checkbox">
                             <input type="checkbox" id="privacy-policy" name="privacy_policy" required />
                             <label for="privacy-policy">
-                                I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a>
+                                I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
                             </label>
                         </div>
 
                         <button type="submit" class="cta">GET FREE QUOTE</button>
                     </form>
+
+                    <!-- Mensaje de éxito (oculto inicialmente) -->
+                    <div class="form-success" style="display: none;">
+                        <div class="success-message">
+                            <h3>✅ Thank You!</h3>
+                            <p>Your message has been sent successfully. We'll contact you within 24 hours.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

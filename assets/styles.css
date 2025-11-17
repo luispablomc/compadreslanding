@@ -1514,3 +1514,27 @@ span.contact{
     }
 }
 /* END PRIVACY PAGE */
+
+/*ENVIO DE CORREO*/
+/* Mensaje de éxito del formulario */
+.form-success {
+    background: rgba(76, 175, 80, 0.1);
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    padding: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.success-message h3 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.success-message p {
+    color: #4CAF50;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0;
+}

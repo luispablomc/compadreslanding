@@ -32,6 +32,9 @@ function initializeHeaderFunctionality() {
 
   // 6. Manejar navbar para páginas cortas
   handleNavbarForShortPages();
+
+  // 7. Inicializar formulario Netlify
+  initializeNetlifyForm();
 }
 
 function initializeSidebar() {
@@ -171,6 +174,24 @@ function handleNavbarForShortPages() {
   if (pageHeight < viewportHeight + 100 || window.location.pathname.includes('about.html')) {
     navbar.classList.add('scrolled');
   }
+}
+
+// Manejar formulario Netlify
+function initializeNetlifyForm() {
+    const form = document.querySelector('form[netlify]');
+    const formSuccess = document.querySelector('.form-success');
+    
+    if (form) {
+        // Netlify maneja el envío automáticamente
+        // Solo necesitamos mostrar confirmación
+        form.addEventListener('submit', function(e) {
+            // Opcional: agregar delay para mejor UX
+            setTimeout(() => {
+                form.style.display = 'none';
+                formSuccess.style.display = 'block';
+            }, 1000);
+        });
+    }
 }
 
 // ------------------------------
