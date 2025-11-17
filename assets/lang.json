@@ -3,24 +3,54 @@
         "menu_about": "About Us",
         "menu_services": "Services",
         "menu_contact": "Contact",
-        "hero_title": "Clean spaces. Strong impressions.",
+        "hero_title": "Fast, Powerful & Affordable Pressure Cleaning.",
         "hero_subtitle": "Professional cleaning that restores the look of your property.",
         "cta_quote": "Get a Free Quote",
         "about_title": "Who We Are",
-        "about_text": "We deliver professional cleaning solutions for commercial and residential properties across San Diego.",
+        "about_text": "Last updated: November 2025\n\nAt Compadres Cleaning & Removal Services LLC, we respect your privacy and are committed to protecting your personal information. Information We Collect: We may collect personal details such as your name, phone number, email address, and property information when you contact us through our website, request a quote, or book a service. How We Use Your Information: We use your information only to respond to your inquiries, provide estimates, schedule services, and improve our website and customer experience. Data Protection: We never sell or share your personal information with third parties except as required by law or to fulfill requested services (for example, processing payments or scheduling). Cookies & Analytics: Our website may use cookies or analytics tools (such as Google Analytics) to understand site traffic and improve performance. You can adjust cookie settings in your browser at any time. Your Consent: By using our website, you agree to this Privacy Policy. Contact Us: If you have any questions or requests regarding your personal data, please contact us at:",
+        
         "services_title": "Our Services",
+        "services_description": "At Compadres Cleaning & Removal services, we deliver expert cleaning solutions designed to restore and protect your property. Whether you need routine maintenance or a one-time deep clean, our team is equipped with the latest tools and eco-friendly products to handle jobs of all sizes — commercial or residential.",
+        
         "service_pressure": "Commercial & Residential Pressure Washing",
         "service_pressure_desc": "High-power cleaning that removes dirt, mold, and grime.",
+        "service_pressure_full": "We provide top-tier pressure washing services for both homes and businesses. From storefronts and sidewalks to home exteriors and garages, we remove dirt, mold, mildew, and grime safely and effectively. Our powerful cleaning systems ensure every surface looks refreshed while protecting the integrity of your property.",
+        
         "service_driveway": "Driveway Cleaning",
         "service_driveway_desc": "Removes stains and buildup, improving curb appeal.",
+        "service_driveway_full": "Over time, driveways accumulate oil, dirt, and tire marks that dull their appearance. Our deep-cleaning process restores the look of concrete and asphalt driveways, removing stubborn buildup and enhancing your home’s curb appeal. A clean driveway doesn’t just look great — it also helps prevent surface deterioration.",
+        
         "service_graffiti": "Graffiti Removal",
         "service_graffiti_desc": "Removes graffiti without damaging surfaces.",
+        "service_graffiti_full": "We understand how damaging graffiti can be to your property’s image. Our specialized graffiti removal techniques eliminate paint without harming your underlying surfaces. Whether on brick, concrete, or metal, we restore your property quickly and professionally, helping you maintain a clean, welcoming environment.",
+
         "service_oilstain": "Oil Stain Removal",
         "service_oilstain_desc": "We eliminate tough oil and grease stains.",
+        "service_oilstain_full": "Oil and grease stains are among the toughest to remove — but not for our team. Using professional-grade degreasers and hot-water pressure systems, we lift even the deepest oil stains from driveways, parking lots, and garage floors. We help your surfaces look spotless and stay that way longer.",
+        
         "service_house": "House Washing",
         "service_house_desc": "Soft washing that protects paint and finishes.",
+        "service_house_full": "Your home’s exterior is constantly exposed to dust, pollen, mildew, and pollution. Our soft-wash house cleaning method gently removes buildup from siding, stucco, brick, and wood, leaving your home bright and fresh without causing any surface damage. Regular house washing also helps preserve your property’s value.",
+
+        "service_patio": "Patio & Deck Washing",
+        "service_patio_desc": "Restores beauty to outdoor living spaces.",
+        "service_patio_full": "We specialize in rejuvenating patios and decks so you can enjoy your outdoor spaces again. Our cleaning process safely removes mold, algae, and grime from wood, composite, and concrete surfaces — preventing slips and extending the life of your deck or patio materials.",
+
         "service_pool": "Pool Deck Cleaning",
         "service_pool_desc": "Removes algae and buildup; bright and safe surface.",
+        "service_pool_full": "Keep your pool area safe and inviting with our professional pool deck cleaning service. We eliminate slippery algae, sunscreen residue, and dirt buildup to create a clean, bright, and non-slip surface for family and guests. Ideal for residential and commercial pool areas alike.",
+        
+        "service_solar": "Solar Panel Cleaning",
+        "service_solar_desc": "Enhances efficiency by removing dirt and debris.",
+        "service_solar_full": "Dirty solar panels can lose up to 25% of their efficiency. Our gentle, water-fed cleaning system removes dust, pollen, and bird droppings without scratching or damaging the panels. Regular cleaning ensures your panels perform at their best and last longer.",
+        
+        "service_house_interior": "Interior House Cleaning",
+        "service_house_interior_desc": "Comprehensive interior cleaning services.",
+        "service_house_interior_full": "Our interior house cleaning service keeps your living spaces spotless and comfortable. We handle everything from dusting and mopping to bathroom sanitizing and kitchen cleaning — with meticulous attention to detail. Whether you need a one-time deep clean or ongoing service, we make your home feel fresh and inviting.",
+
+        "service_office": "Interior Office Cleaning",
+        "service_office_desc": "Professional cleaning for office spaces.",
+        "service_office_full": "A clean workspace creates a productive, professional environment. Our office cleaning team provides regular or one-time services, including dusting, disinfecting, trash removal, floor care, and more. We work around your schedule to minimize disruptions and ensure your business always looks its best.",
         "contact_title": "Request Your Free Quote",
         "cta_send": "Send Message",
         "footer_text": "© 2025 Compadres Cleaning & Removal Services LLC | Licensed & Insured"

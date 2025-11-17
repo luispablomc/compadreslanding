@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,127 +9,279 @@
     <title>Pressure Washing & Cleaning Services in San Diego | Compadres Cleaning</title>
 
     <!-- Meta Description (SEO local) -->
-    <meta name="description" content="Professional pressure washing and cleaning services in San Diego. Commercial & residential cleaning, graffiti removal, oil stain removal, house washing, pool deck cleaning. Licensed & insured. Get a free quote." />
+    <meta name="description"
+        content="Professional pressure washing and cleaning services in San Diego. Commercial & residential cleaning, graffiti removal, oil stain removal, house washing, pool deck cleaning. Licensed & insured. Get a free quote." />
 
     <!-- SEO Keywords -->
-    <meta name="keywords" content="pressure washing San Diego, power washing San Diego, commercial cleaning San Diego, graffiti removal San Diego, driveway cleaning San Diego, house washing San Diego">
+    <meta name="keywords"
+        content="pressure washing San Diego, power washing San Diego, commercial cleaning San Diego, graffiti removal San Diego, driveway cleaning San Diego, house washing San Diego">
 
     <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <div id="header"></div>
+    <main>
+        <section class="hero">
+            <h1 data-key="hero_title" class="hero-title"></h1>
+            <p data-key="hero_subtitle" class="hero-subtitle"></p>
+            <button class="cta" data-key="cta_quote"></button>
+        </section>
 
-<header class="navbar">
-    <img class="logo" src="assets/images/logo.png" alt="Compadres Cleaning Logo" />
+        <section id="trust" class="section trust-section">
+            <div class="trust-container">
+                <h2>Your Privacy & Trust Matter to Us</h2>
 
-    <nav class="nav-links">
-        <a href="#about" data-key="menu_about"></a>
-        <a href="#services" data-key="menu_services"></a>
-        <a href="#contact" data-key="menu_contact"></a>
-    </nav>
+                <div class="trust-points">
+                    <div class="trust-card">
+                        <h3>🔐 Data Protection</h3>
+                        <p>We never sell or share your personal information with third parties</p>
+                    </div>
 
-    <!-- Selector idioma escritorio -->
-    <div class="language-wrapper desktop-language">
-        <select class="languageSelector">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-        </select>
-    </div>
+                    <div class="trust-card">
+                        <h3>📞 Direct Communication</h3>
+                        <p>Your contact details are only used to respond to your service requests</p>
+                    </div>
 
-    <button id="menuToggle" class="menu-toggle">
-        <span></span><span></span><span></span>
-    </button>
-</header>
+                    <div class="trust-card">
+                        <h3>🛡️ Secure Processing</h3>
+                        <p>Information is strictly used for estimates and scheduling your services</p>
+                    </div>
+                </div>
 
-<!-- Menú móvil overlay -->
-<div id="mobileMenu" class="overlay mobile-menu">
-    <div class="overlay-content">
-        <span id="closeMenu" class="close-menu">&times;</span>
+                <p class="trust-cta">Learn more about our commitment to your privacy and our company story</p>
+                <a href="about.html" class="cta-secondary">Learn More About Us</a>
+            </div>
+        </section>
 
-        <nav>
-            <a href="#about" data-key="menu_about"></a>
-            <a href="#services" data-key="menu_services"></a>
-            <a href="#contact" data-key="menu_contact"></a>
-        </nav>
+        <section id="services" class="section services-section">
+            <div class="services-header">
+                <div class="services-text">
+                    <h2 data-key="services_title"></h2>
+                    <p data-key="services_description"></p>
+                </div>
+                <div class="services-image">
+                    <img src="assets/images/fence-cleaning.jpg" alt="Our Cleaning Services" />
+                </div>
+            </div>
 
-        <!-- Selector idioma móvil -->
-        <div class="language-wrapper mobile-language">
-            <select class="languageSelector">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-            </select>
-        </div>
-    </div>
-</div>
+            <div class="services-grid">
+                <div class="card">
+                    <h3 data-key="service_pressure"></h3>
+                    <div class="card-preview">
+                        <p data-key="service_pressure_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_pressure_full"></p>
+                    </div>
+                </div>
 
-<section class="hero">
-    <h1 data-key="hero_title" class="hero-title"></h1>
-    <p data-key="hero_subtitle" class="hero-subtitle"></p>
-    <button class="cta" data-key="cta_quote"></button>
-</section>
+                <div class="card">
+                    <h3 data-key="service_driveway"></h3>
+                    <div class="card-preview">
+                        <p data-key="service_driveway_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_driveway_full"></p>
+                    </div>
+                </div>
 
-<section id="about" class="section">
-    <h2 data-key="about_title"></h2>
-    <p data-key="about_text"></p>
-</section>
+                <div class="card">
+                    <h3 data-key="service_graffiti"></h3>
 
-<section id="services" class="section services-grid">
-    <h2 data-key="services_title"></h2>
+                    <div class="card-preview">
+                        <p data-key="service_graffiti_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_graffiti_full"></p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <h3 data-key="service_pressure"></h3>
-        <p data-key="service_pressure_desc"></p>
-    </div>
+                <div class="card">
+                    <h3 data-key="service_oilstain"></h3>
+                    <div class="card-preview">
+                        <p data-key="service_oilstain_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_oilstain_full"></p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <h3 data-key="service_driveway"></h3>
-        <p data-key="service_driveway_desc"></p>
-    </div>
+                <div class="card">
+                    <h3 data-key="service_house"></h3>
+                    <div class="card-preview">
+                        <p data-key="service_house_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_house_full"></p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <h3 data-key="service_graffiti"></h3>
-        <p data-key="service_graffiti_desc"></p>
-    </div>
+                <div class="card">
+                    <h3 data-key="service_patio"></h3>
+                    <div class="card-preview">
+                        <p data-key="service_patio_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_patio_full"></p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <h3 data-key="service_oilstain"></h3>
-        <p data-key="service_oilstain_desc"></p>
-    </div>
+                <div class="card">
+                    <h3 data-key="service_pool"></h3>
+                    <div class="card-preview">
+                        <p data-key="service_pool_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_pool_full"></p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <h3 data-key="service_house"></h3>
-        <p data-key="service_house_desc"></p>
-    </div>
+                <div class="card">
+                    <h3 data-key="service_solar"></h3>
+                    <div class="card-preview">
+                        <p data-key="service_solar_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_solar_full"></p>
+                    </div>
+                </div>
 
-    <div class="card">
-        <h3 data-key="service_pool"></h3>
-        <p data-key="service_pool_desc"></p>
-    </div>
-</section>
+                <div class="card">
+                    <h3 data-key="service_house_interior"></h3>
 
-<section class="section locations">
-    <h2>Service Areas in San Diego</h2>
-    <p>
-        We proudly serve San Diego County including Chula Vista, La Jolla, Mission Valley,
-        Pacific Beach, National City, and surrounding areas.
-    </p>
-</section>
+                    <div class="card-preview">
+                        <p data-key="service_house_interior_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_house_interior_full"></p>
+                    </div>
+                </div>
 
-<section id="contact" class="section contact">
-    <h2 data-key="contact_title"></h2>
+                <div class="card">
+                    <h3 data-key="service_office"></h3>
 
-    <form>
-        <input type="text" placeholder="Name" required />
-        <input type="email" placeholder="Email" required />
-        <textarea placeholder="Message"></textarea>
-        <button class="cta" data-key="cta_send"></button>
-    </form>
-</section>
+                    <div class="card-preview">
+                        <p data-key="service_office_desc"></p>
+                    </div>
+                    <div class="card-full">
+                        <p data-key="service_office_full"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<footer>
-    <p data-key="footer_text"></p>
-</footer>
+        <section class="section locations-section">
+            <div class="locations-container">
+                <h2>Service Areas in San Diego</h2>
+                <p class="locations-intro">We proudly serve San Diego County and surrounding areas</p>
 
-<script type="application/ld+json">
+                <div class="cities-grid">
+                    <div class="city-item">
+                        <span>Chula Vista</span>
+                    </div>
+                    <div class="city-item">
+                        <span>La Jolla</span>
+                    </div>
+                    <div class="city-item">
+                        <span>Mission Valley</span>
+                    </div>
+                    <div class="city-item">
+                        <span>Pacific Beach</span>
+                    </div>
+                    <div class="city-item">
+                        <span>National City</span>
+                    </div>
+                    <div class="city-item">
+                        <span>Downtown San Diego</span>
+                    </div>
+                    <div class="city-item">
+                        <span>Coronado</span>
+                    </div>
+                    <div class="city-item">
+                        <span>Imperial Beach</span>
+                    </div>
+                </div>
+
+                <p class="locations-note">And many more surrounding areas!</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="contact-container">
+                <!-- Columna 1: Información -->
+                <div class="contact-info">
+                    <h2>GET A FREE QUOTE!</h2>
+
+                    <div class="contact-columns">
+                        <!-- Columna 1: Texto descriptivo -->
+                        <div class="contact-text-column">
+                            <p class="contact-description">
+                                Ready to transform your space? Contact us today for a free, no-obligation quote.
+                                We're here to help with all your cleaning needs!
+                            </p>
+                        </div>
+
+                        <!-- Columna 2: Datos de contacto -->
+                        <div class="contact-details-column">
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <span class="contact-icon">📞</span>
+                                    <div>
+                                        <strong>Phone Number</strong>
+                                        <span class="contact">(555) 123-4567</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-icon">✉️</span>
+                                    <div>
+                                        <strong>Email Address</strong>
+                                        <span class="contact">info@compadrescleaning.com</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-icon">📍</span>
+                                    <div>
+                                        <strong>Business Address</strong>
+                                        <span class="contact">123 Cleaning St, San Diego, CA 92101</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Formulario -->
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xkgkepav" method="POST">
+                        <input type="text" name="name" placeholder="Your Full Name" required />
+                        <input type="email" name="email" placeholder="Your Email Address" required />
+                        <input type="tel" name="phone" placeholder="Your Phone Number" required />
+                        <input type="text" name="business_address" placeholder="Business Address (if applicable)" />
+
+                        <div class="privacy-checkbox">
+                            <input type="checkbox" id="privacy-policy" name="privacy_policy" required />
+                            <label for="privacy-policy">
+                                I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="cta">GET FREE QUOTE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div id="footer"></div>
+
+
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -147,6 +300,7 @@
 }
 </script>
 
-<script src="assets/script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
+
 </html>
