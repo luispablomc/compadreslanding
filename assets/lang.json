@@ -6,6 +6,20 @@
         "hero_title": "Fast, Powerful & Affordable Pressure Cleaning.",
         "hero_subtitle": "Professional cleaning that restores the look of your property.",
         "cta_quote": "Get a Free Quote",
+        
+        "trust_title": "Your Privacy & Trust Matter to Us",
+        "trust_protected_title": "Data Protection",
+        "trust_protected_text": "We never sell or share your personal information with third parties",
+
+        "trust_com_title": "Direct Communication",
+        "trust_com_text": "Your contact details are only used to respond to your service requests",
+        
+        "trust_secure_title": "Secure Processing",
+        "trust_secure_text": "nformation is strictly used for estimates and scheduling your services",
+
+        "trust_cta": "Learn more about our commitment to your privacy and our company",
+        "trust_cta_btn": "Learn More About Us",
+
         "about_title": "Who We Are",
         "about_text": "Last updated: November 2025\n\nAt Compadres Cleaning & Removal Services LLC, we respect your privacy and are committed to protecting your personal information. Information We Collect: We may collect personal details such as your name, phone number, email address, and property information when you contact us through our website, request a quote, or book a service. How We Use Your Information: We use your information only to respond to your inquiries, provide estimates, schedule services, and improve our website and customer experience. Data Protection: We never sell or share your personal information with third parties except as required by law or to fulfill requested services (for example, processing payments or scheduling). Cookies & Analytics: Our website may use cookies or analytics tools (such as Google Analytics) to understand site traffic and improve performance. You can adjust cookie settings in your browser at any time. Your Consent: By using our website, you agree to this Privacy Policy. Contact Us: If you have any questions or requests regarding your personal data, please contact us at:",
         
@@ -51,36 +65,117 @@
         "service_office": "Interior Office Cleaning",
         "service_office_desc": "Professional cleaning for office spaces.",
         "service_office_full": "A clean workspace creates a productive, professional environment. Our office cleaning team provides regular or one-time services, including dusting, disinfecting, trash removal, floor care, and more. We work around your schedule to minimize disruptions and ensure your business always looks its best.",
-        "contact_title": "Request Your Free Quote",
+        
+        "contact_title": "GET A FREE QUOTE!",
         "cta_send": "Send Message",
-        "footer_text": "© 2025 Compadres Cleaning & Removal Services LLC | Licensed & Insured"
+        "footer_text": "© 2025 Compadres Cleaning & Removal Services LLC | Licensed & Insured | San Diego, CA",
+    
+        "privacy_title": "Privacy Policy",
+        "privacy_last_updated": "Last updated: November 2025",
+        "privacy_intro": "At Compadres Cleaning & Removal Services LLC, we respect your privacy and are committed to protecting your personal information.",
+        "privacy_info_we_collect": "Information We Collect:",
+        "privacy_info_we_collect_desc": "We may collect personal details such as your name, phone number, email address, and property information when you contact us through our website, request a quote, or book a service.",
+        "privacy_how_we_use": "How We Use Your Information:",
+        "privacy_how_we_use_desc": "We use your information only to respond to your inquiries, provide estimates, schedule services, and improve our website and customer experience.",
+        "privacy_data_protection": "Data Protection:",
+        "privacy_data_protection_desc": "We never sell or share your personal information with third parties except as required by law or to fulfill requested services (for example, processing payments or scheduling).",
+        "privacy_cookies_analytics": "Cookies & Analytics:",
+        "privacy_cookies_analytics_desc": "Our website may use cookies or analytics tools (such as Google Analytics) to understand site traffic and improve performance. You can adjust cookie settings in your browser at any time.",
+        "privacy_your_consent": "Your Consent:",
+        "privacy_your_consent_desc": "By using our website, you agree to this Privacy Policy.",
+        "privacy_contact_us": "Contact Us:",
+        "privacy_contact_us_desc": "If you have any questions or requests regarding your personal data, please contact us at: 📧"
     },
 
     "es": {
         "menu_about": "Quiénes Somos",
         "menu_services": "Servicios",
         "menu_contact": "Contacto",
-        "hero_title": "Espacios limpios. Impresiones fuertes.",
+
+        "hero_title": "Limpieza a Presión: Rápida, Potente y a un Precio Accesible.",
         "hero_subtitle": "Limpieza profesional que restaura la imagen de tus espacios.",
         "cta_quote": "Solicitar Cotización",
+        
+        "trust_title": "Su Privacidad y Confianza Son Nuestra Prioridad",
+        "trust_protected_title": "Protección de Datos",
+        "trust_protected_text": "Nunca vendemos ni compartimos su información personal con terceros",
+
+        "trust_com_title": "Comunicación Directa",
+        "trust_com_text": "Sus datos de contacto solo se utilizan para responder a sus solicitudes de servicio",
+        
+        "trust_secure_title": "Procesamiento Seguro",
+        "trust_secure_text": "La información se utiliza exclusivamente para presupuestos y agendar sus servicios",
+
+        "trust_cta": "Conozca más sobre nuestro compromiso con su privacidad y la historia de nuestra empresa",
+        "trust_cta_btn": "Conozca Más Sobre Nosotros",
+
         "about_title": "Quiénes Somos",
-        "about_text": "Ofrecemos soluciones profesionales de limpieza para propiedades comerciales y residenciales en San Diego.",
+        "about_text": "Última actualización: noviembre de 2025\n\nEn Compadres Cleaning & Removal Services LLC, respetamos su privacidad y nos comprometemos a proteger su información personal. Información que recopilamos: Podemos recopilar datos personales como su nombre, número de teléfono, dirección de correo electrónico e información de la propiedad cuando se comunica con nosotros a través de nuestro sitio web, solicita un presupuesto o reserva un servicio. Cómo usamos su información: Usamos su información únicamente para responder a sus consultas, proporcionar presupuestos, programar servicios y mejorar nuestro sitio web y la experiencia del cliente. Protección de datos: Nunca vendemos ni compartimos su información personal con terceros, excepto cuando lo exija la ley o para prestar los servicios solicitados (por ejemplo, procesar pagos o programar servicios). Cookies y análisis: Nuestro sitio web puede usar cookies o herramientas de análisis (como Google Analytics) para comprender el tráfico del sitio y mejorar su rendimiento. Puede ajustar la configuración de las cookies en su navegador en cualquier momento. Su consentimiento: Al usar nuestro sitio web, acepta esta Política de Privacidad. Contáctenos: Si tiene alguna pregunta o solicitud relacionada con sus datos personales, contáctenos en: 📧",
+        
         "services_title": "Nuestros Servicios",
+        "services_description": "En Compadres Cleaning & Removal, ofrecemos soluciones de limpieza profesional diseñadas para restaurar y proteger su propiedad. Ya sea que necesite mantenimiento de rutina o una limpieza profunda puntual, nuestro equipo está equipado con las herramientas más modernas y productos ecológicos para realizar trabajos de cualquier tamaño, tanto comerciales como residenciales.",
+
         "service_pressure": "Lavado a presión comercial y residencial",
         "service_pressure_desc": "Eliminamos suciedad, moho y manchas difíciles.",
-        "service_driveway": "Limpieza de entradas",
+        "service_pressure_full": "Ofrecemos servicios de lavado a presión de primera calidad para hogares y negocios. Desde fachadas y aceras hasta exteriores de casas y garajes, eliminamos la suciedad, el moho y la mugre de forma segura y eficaz. Nuestros potentes sistemas de limpieza garantizan que todas las superficies luzcan impecables, a la vez que protegen la integridad de su propiedad.",
+
+        "service_driveway": "Limpieza de entradas de vehículos",
         "service_driveway_desc": "Quitamos manchas y suciedad acumulada.",
-        "service_graffiti": "Remoción de graffiti",
+        "service_driveway_full": "Con el tiempo, las entradas de vehículos acumulan aceite, suciedad y marcas de neumáticos que opacan su apariencia. Nuestro proceso de limpieza profunda restaura el aspecto de las entradas de vehículos de concreto y asfalto, eliminando la suciedad acumulada y mejorando la estética de su hogar. Una entrada de vehículos limpia no solo luce genial, sino que también ayuda a prevenir el deterioro de la superficie.",
+        
+        "service_graffiti": "Eliminación de grafitis",
         "service_graffiti_desc": "Eliminamos pintura sin dañar las superficies.",
-        "service_oilstain": "Remoción de manchas de aceite",
+        "service_graffiti_full": "Entendemos lo perjudicial que puede ser el grafiti para la imagen de su propiedad. Nuestras técnicas especializadas de eliminación de grafitis eliminan la pintura sin dañar las superficies subyacentes. Ya sea en ladrillo, hormigón o metal, restauramos su propiedad de forma rápida y profesional, ayudándole a mantener un ambiente limpio y acogedor.",
+        
+        "service_oilstain": "Eliminación de manchas de aceite",
         "service_oilstain_desc": "Quitamos manchas de aceite y grasa.",
-        "service_house": "Lavado de casa",
+        "service_oilstain_full": "Las manchas de aceite y grasa son de las más difíciles de eliminar, pero no para nuestro equipo. Utilizando desengrasantes de calidad profesional y sistemas de agua caliente a presión, eliminamos incluso las manchas de aceite más profundas de entradas de vehículos, estacionamientos y pisos de garaje. Ayudamos a que sus superficies luzcan impecables y se mantengan así por más tiempo.",
+        
+        "service_house": "Lavado de casas",
         "service_house_desc": "Método seguro para proteger pintura y acabados.",
-        "service_pool": "Limpieza de área de alberca",
+        "service_house_full": "El exterior de su casa está constantemente expuesto al polvo, polen, moho y contaminación. Nuestro método de lavado suave elimina delicadamente la acumulación de suciedad en revestimientos, estuco, ladrillo y madera, dejando su casa brillante y fresca sin causar ningún daño a las superficies. El lavado regular de casas también ayuda a preservar el valor de su propiedad.",
+        
+        "service_patio": "Lavado de Patios y Terrazas",
+        "service_patio_desc": "Restaura la belleza de los espacios exteriores.",
+        "service_patio_full": "Nos especializamos en la renovación de patios y terrazas para que vuelva a disfrutar de sus espacios al aire libre. Nuestro proceso de limpieza elimina de forma segura el moho, las algas y la suciedad de las superficies de madera, composite y hormigón, evitando resbalones y prolongando la vida útil de sus materiales.",
+        
+        "service_pool": "Limpieza de Terrazas de Piscinas",
         "service_pool_desc": "Superficie más brillante y segura.",
-        "contact_title": "Solicita una cotización",
+        "service_pool_full": "Mantenga su área de piscina segura y atractiva con nuestro servicio profesional de limpieza de terrazas. Eliminamos las algas resbaladizas, los residuos de protector solar y la acumulación de suciedad para crear una superficie limpia, brillante y antideslizante para familiares e invitados. Ideal tanto para piscinas residenciales como comerciales.",
+        
+        "service_solar": "Limpieza de Paneles Solares",
+        "service_solar_desc": "Mejora la eficiencia al eliminar suciedad y escombros.",
+        "service_solar_full": "Los paneles solares sucios pueden perder hasta un 25% de su eficiencia. Nuestro sistema de limpieza suave con agua elimina polvo, polen y excrementos de aves sin rayar ni dañar los paneles. La limpieza regular asegura que sus paneles funcionen al máximo y duren más.",
+        
+        "service_house_interior": "Limpieza de Interiores",
+        "service_house_interior_desc": "Servicios integrales de limpieza interior.",
+        "service_house_interior_full": "Nuestro servicio de limpieza de interiores mantiene sus espacios impecables y confortables. Nos encargamos de todo, desde quitar el polvo y fregar hasta desinfectar baños y limpiar cocinas, con una atención meticulosa a los detalles. Tanto si necesita una limpieza a fondo puntual como un servicio regular, hacemos que su hogar se sienta fresco y acogedor.",
+
+        "service_office": "Limpieza de oficinas (interiores)",
+        "service_office_desc": "Limpieza profesional para espacios de oficina.",
+        "service_office_full": "Un espacio de trabajo limpio crea un ambiente productivo y profesional. Nuestro equipo de limpieza de oficinas ofrece servicios regulares o puntuales, que incluyen desempolvar, desinfectar, retirar basura, cuidado de pisos y más. Trabajamos según su horario para minimizar interrupciones y asegurar que su negocio siempre luzca impecable.",
+        
+        "contact_title": "¡SOLICITA UN PRESUPUESTO GRATIS!",
         "cta_send": "Enviar",
-        "footer_text": "© 2025 Compadres Cleaning & Removal Services LLC | Licenciado y Asegurado"
+        "footer_text": "© 2025 Compadres Cleaning & Removal Services LLC | Licensed & Insured | San Diego, CA",
+        
+        "privacy_title": "Política de Privacidad",
+        "privacy_last_updated": "Última actualización: noviembre de 2025",
+        "privacy_intro": "En Compadres Cleaning & Removal Services LLC, respetamos su privacidad y nos comprometemos a proteger su información personal.", 
+        "privacy_info_we_collect": "Información que recopilamos:",
+        "privacy_info_we_collect_desc": "Podemos recopilar datos personales como su nombre, número de teléfono, dirección de correo electrónico e información de la propiedad cuando se comunica con nosotros a través de nuestro sitio web, solicita un presupuesto o reserva un servicio.",
+        "privacy_how_we_use": "Cómo usamos su información:",
+        "privacy_how_we_use_desc": "Usamos su información únicamente para responder a sus consultas, proporcionar presupuestos, programar servicios y mejorar nuestro sitio web y la experiencia del cliente.", 
+        "privacy_data_protection": "Protección de datos:",
+        "privacy_data_protection_desc": "Nunca vendemos ni compartimos su información personal con terceros, excepto cuando lo exija la ley o para prestar los servicios solicitados (por ejemplo, procesar pagos o programar servicios).",
+        "privacy_cookies_analytics": "Cookies y análisis:",
+        "privacy_cookies_analytics_desc": "Nuestro sitio web puede usar cookies o herramientas de análisis (como Google Analytics) para comprender el tráfico del sitio y mejorar su rendimiento. Puede ajustar la configuración de las cookies en su navegador en cualquier momento.",
+        "privacy_your_consent": "Su consentimiento:",
+        "privacy_your_consent_desc": "Al usar nuestro sitio web, acepta esta Política de Privacidad.",
+        "privacy_contact_us": "Contáctenos:",
+        "privacy_contact_us_desc": "Si tiene alguna pregunta o solicitud relacionada con sus datos personales, contáctenos en:" 
+
+    
     }
 }
     
