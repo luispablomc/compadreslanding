@@ -96,7 +96,27 @@
         "quote_address": "Your Address",
         "quote_policy": "I agree to the ",
         "form_success_title": "✅ Thank you for your message!",
-        "form_success_message": "Your message has been sent successfully. We'll contact you within 24 hours."
+        "form_success_message": "Your message has been sent successfully. We'll contact you within 24 hours.",
+
+        "about_page_title": "About Compadres Cleaning",
+        "about_page_slogan": "At Compadres Cleaning and Removal services, we take pride in restoring the beauty of every surface we clean",
+        "about_page_text_1": "Based in San Diego, we specialize in commercial and residential pressure washing, deep cleaning and removal services, delivering spotless results with professional care.",
+        "about_page_text_2": "Our team combines top-grade equipment, eco-friendly cleaning methods, and attention to detail to ensure your property looks its best — from sidewalks and storefronts to building exteriors/interiors and parking lots.",
+        "about_page_text_3": "Whether you need routine maintenance or a one-time deep clean, we’re here to make your first impression shine.",
+        "about_page_phrase": "At Compadres, We clean You win!",
+        "about_page_image_caption": "Professional cleaning services in San Diego",
+    
+        "values_title": "Why Choose Compadres?",
+        "values_excellence_title": "Professional Excellence",
+        "values_excellence_text": "Top-grade equipment and trained specialists for superior results",
+        "values_eco_title": "Eco-Friendly",
+        "values_eco_text": "Environmentally safe cleaning solutions for your family and property",
+        "values_local_title": "Local & Reliable",
+        "values_local_text": "San Diego based, understanding local cleaning needs and challenges",
+
+        "locations_title": "Service Areas in San Diego",
+        "locations_intro": "We proudly serve San Diego County and surrounding areas",
+        "locations_note": "And many more surrounding areas!"
     },
 
     "es": {
@@ -196,8 +216,31 @@
         "quote_phone": "Número de teléfono",
         "quote_address": "Dirección comercial (si aplica)",
         "quote_policy": "Acepto la ",
+        
         "form_success_title": "✅ ¡Gracias!",
-        "form_success_message": "Tu mensaje ha sido enviado exitosamente. Te contactaremos dentro de 24 horas."
+        "form_success_message": "Tu mensaje ha sido enviado exitosamente. Te contactaremos dentro de 24 horas.",
+        
+        "about_page_title": "Acerca de Compadres Cleaning",
+        "about_page_slogan": "Compadres Cleaning and Removal Services, es una empresa que se enorgullese en restaurar la belleza de cada superficie que limpiamos.",
+        "about_page_text_1": "Con sede en San Diego, California, nos especializamos en lavado a presión, limpieza profunda y remoción para propiedades comerciales y residenciales, brindando resultados impecables con cuidado profesional.",
+        "about_page_text_2": "Nuestro equipo combina equipos de primera calidad, métodos de limpieza ecológicos y una meticulosa atención al detalle para garantizar que su propiedad luzca impecable, desde aceras y fachadas hasta exteriores e interiores de edificios y estacionamientos",
+        "about_page_text_3": "Ya sea que necesite mantenimiento de rutina o una limpieza profunda puntual, estamos aquí para que su primera impresión sea la mejor.",
+
+        "about_page_phrase": "En Compadres, ¡nosotros limpiamos y tú ganas!",
+        "about_page_image_caption": "Servicios profesionales de limpieza en San Diego",
+    
+        "values_title": "¿Por qué elegir a Compadres?",
+        "values_excellence_title": "Excelencia profesional",
+        "values_excellence_text": "Equipo de alta calidad y especialistas capacitados para obtener resultados superiores",
+        "values_eco_title": "Ecológicos",
+        "values_eco_text": "Soluciones de limpieza seguras para el medio ambiente, tu familia y tu propiedad",
+        "values_local_title": "Locales y confiables",
+        "values_local_text": "Basados en San Diego, comprendemos las necesidades y retos de limpieza locales",
+
+        "locations_title": "Zonas de servicio en San Diego",
+        "locations_intro": "Servimos con orgullo al condado de San Diego y a las áreas cercanas",
+        "locations_note": "¡Y muchas áreas más a los alrededores!"
+
     }
 }
     

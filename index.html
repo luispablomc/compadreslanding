@@ -178,9 +178,8 @@
 
         <section class="section locations-section">
             <div class="locations-container">
-                <h2>Service Areas in San Diego</h2>
-                <p class="locations-intro">We proudly serve San Diego County and surrounding areas</p>
-
+                <h2 data-key="locations_title"></h2>
+                <p class="locations-intro" data-key="locations_intro"></p>
                 <div class="cities-grid">
                     <div class="city-item">
                         <span>Chula Vista</span>
@@ -207,8 +206,7 @@
                         <span>Imperial Beach</span>
                     </div>
                 </div>
-
-                <p class="locations-note">And many more surrounding areas!</p>
+                <p class="locations-note" data-key="locations_note"></p>
             </div>
         </section>
 
@@ -222,7 +220,6 @@
                         <!-- Columna 1: Texto descriptivo -->
                         <div class="contact-text-column">
                             <p class="contact-description" data-key="quote_description">
-                                
                             </p>
                         </div>
 
@@ -258,13 +255,17 @@
                 <div class="contact-form">
                     <form name="contact" method="POST" netlify data-netlify="true">
                         <input type="text" name="name" placeholder="Your Full Name" data-key="quote_name" required />
-                        <input type="email" name="email" placeholder="Your Email Address" data-key="quote_email" required />
-                        <input type="tel" name="phone" placeholder="Your Phone Number" data-key="quote_phone" required />
-                        <input type="text" name="business_address" placeholder="Business Address (if applicable)" data-key="quote_address" />
+                        <input type="email" name="email" placeholder="Your Email Address" data-key="quote_email"
+                            required />
+                        <input type="tel" name="phone" placeholder="Your Phone Number" data-key="quote_phone"
+                            required />
+                        <input type="text" name="business_address" placeholder="Business Address (if applicable)"
+                            data-key="quote_address" />
                         <div class="privacy-checkbox">
                             <input type="checkbox" id="privacy-policy" name="privacy_policy" required />
                             <label for="privacy-policy">
-                                <span data-key="quote_policy"></span><a href="privacy-policy.html" target="_blank" data-key="privacy_title"></a>
+                                <span data-key="quote_policy"></span><a href="privacy-policy.html" target="_blank"
+                                    data-key="privacy_title"></a>
                             </label>
                         </div>
 
@@ -281,12 +282,10 @@
                 </div>
             </div>
         </section>
-
     </main>
     <div id="footer"></div>
 
-
-    <script type="application/ld+json">
+   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -300,7 +299,7 @@
   "areaServed": "San Diego County",
   "url": "https://compadrescleaning.com",
   "telephone": "YOUR_PHONE_NUMBER",
-  "image": "https://compadrescleaning.com/assets/images/logo.png",
+  "logo": "https://compadrescleaning.com/assets/images/logo.png", 
   "priceRange": "$$"
 }
 </script>
