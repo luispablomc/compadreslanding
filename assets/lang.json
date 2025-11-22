@@ -84,7 +84,19 @@
         "privacy_your_consent": "Your Consent:",
         "privacy_your_consent_desc": "By using our website, you agree to this Privacy Policy.",
         "privacy_contact_us": "Contact Us:",
-        "privacy_contact_us_desc": "If you have any questions or requests regarding your personal data, please contact us at: 📧"
+        "privacy_contact_us_desc": "If you have any questions or requests regarding your personal data, please contact us at: 📧",
+        "quote_description": "Ready to transform your space? Contact us today for a free, no-obligation quote. We're here to help with all your cleaning needs!",
+
+        "quote_company_phone": "Phone Number",
+        "quote_company_email": "Email Address", 
+        "quote_company_address": "Business Address",
+        "quote_name": "Your Name",
+        "quote_email": "Your Email",
+        "quote_phone": "Your Phone Number",
+        "quote_address": "Your Address",
+        "quote_policy": "I agree to the ",
+        "form_success_title": "✅ Thank you for your message!",
+        "form_success_message": "Your message has been sent successfully. We'll contact you within 24 hours."
     },
 
     "es": {
@@ -173,9 +185,19 @@
         "privacy_your_consent": "Su consentimiento:",
         "privacy_your_consent_desc": "Al usar nuestro sitio web, acepta esta Política de Privacidad.",
         "privacy_contact_us": "Contáctenos:",
-        "privacy_contact_us_desc": "Si tiene alguna pregunta o solicitud relacionada con sus datos personales, contáctenos en:" 
-
-    
+        "privacy_contact_us_desc": "Si tiene alguna pregunta o solicitud relacionada con sus datos personales, contáctenos en:" ,
+        
+        "quote_description": "¿Listo para transformar tu espacio? Contáctanos hoy para una cotización gratuita y sin compromiso. Estamos aquí para ayudarte con todas tus necesidades de limpieza.",
+        "quote_company_phone": "Número de teléfono",
+        "quote_company_email": "Correo electrónico",
+        "quote_company_address": "Dirección comercial",
+        "quote_name": "Nombre completo",
+        "quote_email": "Correo electrónico",
+        "quote_phone": "Número de teléfono",
+        "quote_address": "Dirección comercial (si aplica)",
+        "quote_policy": "Acepto la ",
+        "form_success_title": "✅ ¡Gracias!",
+        "form_success_message": "Tu mensaje ha sido enviado exitosamente. Te contactaremos dentro de 24 horas."
     }
 }
     

@@ -202,14 +202,54 @@ let translations = {};
 async function loadLanguage(lang) {
   try {
     const res = await fetch("assets/lang.json");
-    translations = await res.json();
+    const translations = await res.json();
 
     document.querySelectorAll("[data-key]").forEach(el => {
       const key = el.getAttribute("data-key");
-      if (translations[lang] && translations[lang][key]) {
-        el.innerHTML = translations[lang][key];
+      const translation = translations?.[lang]?.[key];
+
+      if (!translation) return; // no hay traducción para esta clave
+
+      // Priorizar atributos específicos
+      // 1) placeholder (inputs, textarea)
+      if ("placeholder" in el) {
+        // Nota: algunos elementos tienen placeholder pero no lo queremos (ej: elementos custom),
+        // por eso comprobamos que el atributo exista en el DOM
+        if (el.hasAttribute("placeholder") || el.tagName.toLowerCase() === "input" || el.tagName.toLowerCase() === "textarea") {
+          el.placeholder = translation;
+          return;
+        }
       }
+
+      // 2) value (botones, inputs con value)
+      if ("value" in el && (el.tagName.toLowerCase() === "input" || el.tagName.toLowerCase() === "button")) {
+        // solo reemplazar value si el input tiene value (o es button)
+        if (el.tagName.toLowerCase() === "button" || el.type === "button" || el.type === "submit" || el.hasAttribute("value")) {
+          el.value = translation;
+          // para botones <button> también es útil setear textContent
+          if (el.tagName.toLowerCase() === "button") el.textContent = translation;
+          return;
+        }
+      }
+
+      // 3) atributos informativos
+      if (el.hasAttribute("title")) {
+        el.setAttribute("title", translation);
+        return;
+      }
+      if (el.hasAttribute("alt")) {
+        el.setAttribute("alt", translation);
+        return;
+      }
+      if (el.hasAttribute("aria-label")) {
+        el.setAttribute("aria-label", translation);
+        return;
+      }
+
+      // 4) texto visible (fallback)
+      el.textContent = translation;
     });
+
   } catch (error) {
     console.error("Error loading language:", error);
   }

@@ -221,9 +221,8 @@
                     <div class="contact-columns">
                         <!-- Columna 1: Texto descriptivo -->
                         <div class="contact-text-column">
-                            <p class="contact-description">
-                                Ready to transform your space? Contact us today for a free, no-obligation quote.
-                                We're here to help with all your cleaning needs!
+                            <p class="contact-description" data-key="quote_description">
+                                
                             </p>
                         </div>
 
@@ -233,21 +232,21 @@
                                 <div class="contact-item">
                                     <span class="contact-icon">📞</span>
                                     <div>
-                                        <strong>Phone Number</strong>
+                                        <strong data-key="quote_company_phone"></strong>
                                         <span class="contact">(555) 123-4567</span>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <span class="contact-icon">✉️</span>
                                     <div>
-                                        <strong>Email Address</strong>
+                                        <strong data-key="quote_company_email"></strong>
                                         <span class="contact">info@compadrescleaning.com</span>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <span class="contact-icon">📍</span>
                                     <div>
-                                        <strong>Business Address</strong>
+                                        <strong data-key="quote_company_address"></strong>
                                         <span class="contact">123 Cleaning St, San Diego, CA 92101</span>
                                     </div>
                                 </div>
@@ -258,25 +257,25 @@
 
                 <div class="contact-form">
                     <form name="contact" method="POST" netlify data-netlify="true">
-                        <input type="text" name="name" placeholder="Your Full Name" required />
-                        <input type="email" name="email" placeholder="Your Email Address" required />
-                        <input type="tel" name="phone" placeholder="Your Phone Number" required />
-                        <input type="text" name="business_address" placeholder="Business Address (if applicable)" />
+                        <input type="text" name="name" placeholder="Your Full Name" data-key="quote_name" required />
+                        <input type="email" name="email" placeholder="Your Email Address" data-key="quote_email" required />
+                        <input type="tel" name="phone" placeholder="Your Phone Number" data-key="quote_phone" required />
+                        <input type="text" name="business_address" placeholder="Business Address (if applicable)" data-key="quote_address" />
                         <div class="privacy-checkbox">
                             <input type="checkbox" id="privacy-policy" name="privacy_policy" required />
                             <label for="privacy-policy">
-                                I agree to the <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+                                <span data-key="quote_policy"></span><a href="privacy-policy.html" target="_blank" data-key="privacy_title"></a>
                             </label>
                         </div>
 
-                        <button type="submit" class="cta">GET FREE QUOTE</button>
+                        <button type="submit" class="cta" data-key="cta_quote"></button>
                     </form>
 
                     <!-- Mensaje de éxito (oculto inicialmente) -->
                     <div class="form-success" style="display: none;">
                         <div class="success-message">
-                            <h3>✅ Thank You!</h3>
-                            <p>Your message has been sent successfully. We'll contact you within 24 hours.</p>
+                            <h3 data-key="form_success_title"></h3>
+                            <p data-key="form_success_message"></p>
                         </div>
                     </div>
                 </div>
