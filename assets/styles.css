@@ -562,6 +562,22 @@ h2 {
   .services-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .hero-title {
+    font-size: clamp(2rem, 3rem, 6rem);
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero{
+    padding-top: 110px;
+  }
+
+ button.cta {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
 }
 
 #header, #footer {
