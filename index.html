@@ -7,7 +7,9 @@
 
     <!-- SEO Title -->
     <title>Compadres Cleaning & Removal Services</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" href="/assets/images/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+
     <!-- Meta Description (SEO local) -->
     <meta name="description"
         content="Professional pressure washing and cleaning services in San Diego. Commercial and residential cleaning, graffiti removal, oil stain removal, house washing, pool deck cleaning. Licensed & insured. Get a free quote." />
@@ -230,7 +232,7 @@
                                     <span class="contact-icon">📞</span>
                                     <div>
                                         <strong data-key="quote_company_phone"></strong>
-                                        <span class="contact">(555) 123-4567</span>
+                                        <span class="contact">(619) 769-7007</span>
                                     </div>
                                 </div>
                                 <div class="contact-item">
@@ -253,7 +255,11 @@
                 </div>
 
                 <div class="contact-form">
-                    <form name="contact" method="POST" netlify data-netlify="true">
+                    <form name="contact" method="POST" netlify data-netlify="true" netlify-honeypot="company" data-netlify-recaptcha="true">
+
+                        <input type="hidden" name="form-name" value="contact" />
+                        <input type="text" name="company" style="display:none" tabindex="-1" autocomplete="off" />
+
                         <input type="text" name="name" placeholder="Your Full Name" data-key="quote_name" required />
                         <input type="email" name="email" placeholder="Your Email Address" data-key="quote_email"
                             required />
@@ -268,6 +274,8 @@
                                     data-key="privacy_title"></a>
                             </label>
                         </div>
+
+                         <div data-netlify-recaptcha="true"></div>
 
                         <button type="submit" class="cta" data-key="cta_quote"></button>
                     </form>
@@ -298,7 +306,7 @@
   },
   "areaServed": "San Diego County",
   "url": "https://compadrescleaning.com",
-  "telephone": "YOUR_PHONE_NUMBER",
+  "telephone": "+16197697007",
   "logo": "https://compadrescleaning.com/assets/images/logo.png", 
   "priceRange": "$$"
 }
